@@ -60,9 +60,14 @@
    ![Screenshot8](images/8.png)
    
 6. Нарисовать диаграмму, в которой есть класс родительский класс, домашние животные и вьючные животные, в составы которых в случае домашних животных войдут классы: собаки, кошки, хомяки, а в класс вьючные животные войдут: Лошади, верблюды и ослы).
-   ![Classes diagram](images/animals-nursery-accounting.drawio.png)
+    #### UML-диаграмма
+    ![Classes diagram](images/animals-nursery-accounting.drawio.png)
 
 7. В подключенном MySQL репозитории создать базу данных “Друзья человека”
+    #### Скрипт базы данных human_friends -> [Script BD human_friends](files/human_friends_db_script.sql "Здесь можно посмотреть скрипт создания и наполнения базы данных human_friends")
+   #### Схема базы данных human_friends
+   ![Schema BD human_friends](images/human_friends.png)
+
 ```sql
 DROP DATABASE IF EXISTS human_friends;
 CREATE DATABASE human_friends;
